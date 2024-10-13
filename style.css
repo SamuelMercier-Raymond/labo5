@@ -1,0 +1,92 @@
+
+body 
+{
+    font-family: italic;
+    background-color: white;
+    background: linear-gradient(red,black);
+    padding:0;
+    margin:0;
+}
+
+table 
+{
+    width: 40%;
+    margin:auto;
+    border-collapse: collapse;
+    border: 20px solid gray;
+    background-color: white;
+    
+}
+
+th 
+{
+    text-align: center;
+    color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+    background-color:red;
+}
+
+
+.synopsis 
+{
+    font-style:italic
+}
+
+.poster img /* pour la compréhension de comment sélectionner seulement une partie précise https://developer.mozilla.org/fr/docs/Web/CSS/Class_selectors */
+{
+    width : auto;
+    height : 730px;
+}
+
+
+.distribution 
+{
+    padding: 15px;
+}
+
+.distribution h3 
+{
+    text-align: center;
+    color:white;
+    background-color:red;
+}
+
+.distribution ul 
+{
+    list-style: none;
+    padding: 0;
+}
+
+.distribution li 
+{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.distribution img 
+{
+    width: 71px;
+    height: 71px;
+    margin: 10px;
+    border-radius: 40px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+   
+}
+.distribution li span:first-child 
+{
+    font-weight: bold;  /* j'ai été sur ce site pour comprendre comment faire le gras sur chaque première ligne https://developer.mozilla.org/en-US/docs/Web/CSS/:first-child */
+    font-size:larger;
+}
+.sources
+{
+    padding-left:16px;
+}
+.filmsliste
+{
+    padding-left:16px;
+}
