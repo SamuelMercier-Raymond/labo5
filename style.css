@@ -36,7 +36,7 @@ th
 
 .poster img /* pour la compréhension de comment sélectionner seulement une partie précise https://developer.mozilla.org/fr/docs/Web/CSS/Class_selectors */
 {
-    width : auto;
+    width : 500px;
     height : 730px;
 }
 
